@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS pnj_settings (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    pedestrian_density FLOAT NOT NULL DEFAULT 1.0,
+    vehicle_density FLOAT NOT NULL DEFAULT 1.0,
+    aggressive BOOLEAN NOT NULL DEFAULT FALSE
+);
